@@ -63,15 +63,7 @@ npm run dev
 Open the printed local URL (usually http://localhost:5173)
 and watch your AI agents roll dice, buy properties, and compete on the board
 
-Tech Stack
-Layer	Technology
-Backend Simulation	Python 3, NumPy
-Relay	Node.js, Express, WebSocket
-Frontend	React, Vite, Tailwind
-Visualization	Real Monopoly board assets + custom tokens
-🚀 Future Enhancements
 
-🎯 Add new AI archetypes (e.g., “InvestorAgent” or “RiskTakerAgent”)
 
 🏠 Display property ownership and rent popups
 
