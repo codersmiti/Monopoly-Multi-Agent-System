@@ -1,1 +1,90 @@
+# .gitignore for MonopolySimulator
+# Covers Python, Node, VS Code, Windows/macOS, build artifacts and common IDE files
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+build/
+dist/
+*.egg
+.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+coverage/
+coverage*.xml
+htmlcov/
+
+# pipenv
+Pipfile.lock
+
+# setuptools / wheel
+*.egg-info/
+.eggs/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+dist/
+build/
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# JetBrains
 .idea/
+*.iml
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Editor temporary files
+*~
+*.swp
+*.swo
+*.bak
+
+# Other
+*.sqlite3
+*.db
+*.sqlite
+
+# Ignore generated assets in workspace subfolders (frontend builds / assets)
+monopoly-visualizer/node_modules/
+monopoly-visualizer/dist/
+mono-relay/node_modules/
+
+# Windows thumbnail cache
+Thumbs.db
+
+# End of .gitignore
