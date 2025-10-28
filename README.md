@@ -18,7 +18,7 @@ This project brings the classic **Monopoly board game** to life using a mix of i
 | **StrategyAgent** | Uses predictions and fairness metrics to make smarter, context-aware decisions. |
 
 The agents compete across **random matchups** (e.g. Fair vs Selfish, Strategy vs Selfish, Fair vs Strategy).  
-Every move is streamed live onto a digital Monopoly board — complete with rolling dice, buying properties, and tracking cash.
+Every move is streamed live onto a digital Monopoly board, complete with rolling dice, buying properties, and tracking cash.
 
 ---
 
@@ -31,9 +31,6 @@ Each component plays a specific role:
 ---
 
 ## Installation & Setup
-
-### Clone the Repository
-
 ```bash
 git clone https://github.com/codersmiti/MonopolyAI-Visualizer.git
 cd MonopolyAI-Visualizer
@@ -47,7 +44,7 @@ with 30 turns, fairness metrics, and live move events.
 (2) Start the Relay Server
 cd mono-relay
 node server.js
-You’ll see:
+You will see:
 
 WS listening on ws://localhost:8085
 HTTP relay on http://localhost:8086/event
@@ -62,4 +59,27 @@ npm run dev
 
 Open the printed local URL (usually http://localhost:5173)
 and watch your AI agents roll dice, buy properties, and compete on the board
+```
+---
 
+## Results
+<img width="1918" height="858" alt="image" src="https://github.com/user-attachments/assets/0b292f4b-33df-410a-84f7-acb84cafe074" />
+
+### Example Terminal Output
+
+Below is an example of what you will see in the console after one full AI Monopoly simulation:
+
+```bash
+FINAL SUMMARY
+============================================================
+
+Matchup: Fair vs Selfish
+Winner: FairAgent
+Fairness: 0.401
+Efficiency: 0.343
+Total Violations: 4
+Detected Cheats: 3
+Predictive Accuracy: 100.0%
+
+===========================================================
+```
