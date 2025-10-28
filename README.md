@@ -1,4 +1,4 @@
-#AI Monopoly Simulator & Visualizer
+## AI Monopoly Simulator & Visualizer
 
 **An interactive Monopoly world where AI agents play, cheat, strategize, and learn fairness, right before your eyes.**  
 Built with Python (simulation engine), Node.js (event relay), and React (real-time board visualizer).
